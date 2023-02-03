@@ -1,0 +1,30 @@
+/* body section */
+body{
+    width: 77%;
+}
+
+/* navigation section */
+#navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#navbar::before
+{
+width: 160%;
+}
+#navbar li{
+    margin: 13px;
+}
+#navbar li a{
+    padding: 0px;
+    font-size: 10px;
+}
+
+/* home section */
+
+#about p{
+    text-align: center;
+}
